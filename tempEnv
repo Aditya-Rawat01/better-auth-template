@@ -1,0 +1,11 @@
+//Rename to .env
+BETTER_AUTH_SECRET="" // generate one from the better auth library.
+BETTER_AUTH_URL="http://localhost:3000" //default url.
+
+DATABASE_URL="" // postgress db url
+
+GITHUB_CLIENT_ID="" // generate one from github. if this is github app then important step: go to settings -> developer settings -> github apps -> your own app -> permission & events -> account permissions -> change the email address from no access to read only.
+GITHUB_CLIENT_SECRET=""
+
+GOOGLE_CLIENT_ID="" // generate one from the google.
+GOOGLE_CLIENT_SECRET=""

@@ -12,9 +12,13 @@ things to change:<br/>
 change the google oAuth client id's authorized redirect url when deployed.<br/>
 change the github homepage url and authorization callback url to that deployed url as well.<br/>
 also change them in the projects as well.<br/>
-
+change the better auth url in env file. <br/>
 observations:<br/>
 single user can have multiple accounts (by credential/github/google) <br/>
 
 
 migrations are not pushed, one must do npm i then initiallize prisma and migrate to db and generate the google/github oAuth <br/>
+
+
+
+read more about the authentication in better auth website ->get started section, next js, authentication section. <br/>
